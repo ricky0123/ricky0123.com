@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && cp src/index.html dist"
+    "build": "npx tailwindcss -i ./input.css -o ./site/main.css",
+    "start": "npx tailwindcss -i ./input.css -o ./site/main.css --watch"
   },
   "repository": {
     "type": "git",
